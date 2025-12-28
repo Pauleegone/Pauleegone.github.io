@@ -1,3 +1,8 @@
+---
+title: "Your Name — Resume"
+permalink: /
+---
+
 Paul Jinsol Lee
 B.A. Intelligence & Cyber Operations at The University of Southern California
 
