@@ -1,25 +1,33 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="/assets/styles.css">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="name">{{ page.title | default: site.title }}</h1>
-      <p class="tagline">{{ site.tagline }}</p>
-    </div>
-  </header>
+title: "Paul Jinsol Lee"
+permalink: /
+---
 
-  <main class="container resume">
-    {{ content }}
-  </main>
+# Your Name
 
-  <footer class="container footer">
-    <p>James 1: 12 · <a href="https://github.com/Pauleegone/Pauleegone.github.io">Source</a></p>
-  </footer>
-</body>
-</html>
+Paul Jinsol Lee · Buena Park, CA · pauljinsollee@gmail.com · https://github.com/Pauleegone
+
+## Summary
+Recent graduate from the University of Southern California with a Bachelor’s degree in Intelligence and Cyber Operations. Strong foundation in network security, threat analysis, and penetration testing, with hands-on experience in forensic tools, risk assessment, and vulnerability management. Skilled at problem-solving, adapting to new technologies, and collaborating in team environments. Motivated to apply previous technical knowledge with a willingness to grow and learn in the information technology and cybersecurity fields.
+
+## Experience
+### Role — Company
+*Location · YYYY — Present*
+- Achievement / responsibility 1
+- Achievement / responsibility 2
+
+### Role — Company
+*Location · YYYY — YYYY*
+- Achievement / responsibility 1
+- Achievement / responsibility 2
+
+## Education
+Degree, Institution — Year
+
+## Skills
+Skill1, Skill2, Skill3, Skill4
+
+## Projects
+- Project name — short description, link (if public)
+
+## Contact
+Email: you@example.com · GitHub: https://github.com/Pauleegone
