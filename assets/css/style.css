@@ -12,6 +12,7 @@
   --text: #ffffff;
   --muted: #bfbfbf;
   --accent: #ffffff; /* keep accent white to meet "white font" requirement */
+  --link-blue: #0d6efd; /* blue used for GitHub / LinkedIn links */
 }
 
 * { box-sizing: border-box; }
@@ -69,6 +70,20 @@ a {
 a:hover, a:focus {
   text-decoration-color: rgba(255,255,255,0.28);
   outline: none;
+}
+
+/* Make GitHub and LinkedIn links stand out: blue and underlined */
+a[href*="github.com"],
+a[href*="linkedin.com"] {
+  color: var(--link-blue);
+  text-decoration: underline;
+  /* ensure underline uses the link color (not the faint white used globally) */
+  text-decoration-color: currentColor;
+  text-decoration-thickness: auto;
+}
+a[href*="github.com"]:hover,
+a[href*="linkedin.com"]:hover {
+  text-decoration-color: rgba(13,110,253,0.85);
 }
 
 /* Resume link styled as a clear white button (white text, transparent background) */
