@@ -140,27 +140,27 @@ footer, .contact {
   font-size: 0.95rem;
 }
 
-/* Profile photo styling - centered under the title while leaving title left-aligned */
+/* Profile photo styling - larger and in original shape (not cropped circular) */
 .profile-photo {
   display: block;                 /* keeps it on its own line under the title */
-  width: 120px;                   /* adjust size as needed */
-  height: 120px;
-  border-radius: 50%;             /* circular crop */
-  object-fit: cover;              /* crop/fit nicely */
+  max-width: 480px;               /* allow a larger display on wide screens */
+  width: 100%;                    /* responsive: fill available width up to max-width */
+  height: auto;                   /* preserve original aspect ratio (original shape) */
+  border-radius: 0;               /* keep original rectangular shape */
+  object-fit: none;               /* do not crop/cover — respect original image */
   margin-top: 0.5rem;             /* space between title and image */
   margin-bottom: 0.6rem;          /* space before tagline */
-  border: 2px solid rgba(255,255,255,0.08); /* subtle frame on black bg */
+  border: 2px solid rgba(255,255,255,0.06); /* subtle frame on black bg */
 
-  /* center the image within the container while preserving left-aligned text */
+  /* center the image within the container */
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Smaller screens: reduce photo size */
+/* Smaller screens: constrain image to a comfortable width */
 @media (max-width: 520px) {
   .profile-photo {
-    width: 90px;
-    height: 90px;
+    max-width: 280px;
   }
 }
 
