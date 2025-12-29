@@ -12,6 +12,14 @@
   <header class="site-header">
     <div class="container">
       <h1 class="name">{{ page.title | default: site.title }}</h1>
+
+      <!-- Profile photo inserted below the title -->
+      <img
+        src="{{ '/assets/images/profile.jpg' | relative_url }}"
+        alt="{{ page.title | default: site.title }} — profile photo"
+        class="profile-photo"
+      />
+
       <p class="tagline">{{ site.tagline }}</p>
     </div>
   </header>
