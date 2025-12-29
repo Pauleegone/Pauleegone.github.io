@@ -24,4 +24,4 @@ Short professional summary — 2–4 lines describing you.
 </p>
 
 ## Contact
-Email: pauljinsollee@gmail.com · GitHub: https://github.com/Pauleegone
+Email: pauljinsollee@gmail.com
