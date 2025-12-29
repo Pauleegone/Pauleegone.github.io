@@ -16,7 +16,7 @@ Short professional summary — 2–4 lines describing you.
 
 <p>
   <a class="resume-link" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-    View full résumé (PDF)
+    My Résumé (PDF)
   </a>
   <!-- To suggest download instead of opening in the browser, use:
   <a class="resume-link" href="/resume.pdf" download>Download résumé (PDF)</a>
