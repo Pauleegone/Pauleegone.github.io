@@ -1,11 +1,10 @@
 ---
-title: "Your Name — Resume"
+title: "Paul Jinsol Lee"
 permalink: /
 ---
+**B.A. Intelligence and Cyber Operations**
+Buena Park, CA · pauljinsollee@gmail.com · [GitHub](https://github.com/Pauleegone) · [LinkedIn](https://www.linkedin.com/in/paul-j-lee-891072269)
 
-# Your Name
-
-**Title** · Location · you@example.com · https://github.com/Pauleegone
 
 ## Summary
 Short professional summary — 2–4 lines describing you.
