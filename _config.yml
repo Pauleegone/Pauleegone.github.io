@@ -1,7 +1,15 @@
-# Jekyll site configuration
-# Set the site title to your name so the header shows "Paul Jinsol Lee"
-title: "Paul Jinsol Lee"
-description: "Personal page with my résumé, portfolio and relevant links."
-# (optional) set url/baseurl if you use them for links; leaving blank is fine for GitHub Pages user sites
-url: "https://Pauleegone.github.io"
-baseurl: ""
+# Site settings
+title: Paul Jinsol Lee
+description: Portfolio - Intelligence and Cyber Operations
+url: "https://Pauleegone.github.io"  # Update with your GitHub username
+baseurl: ""  # Leave empty if using username.github.io, or add "/repo-name" if using project site
+
+# Build settings
+markdown: kramdown
+theme: null  # We're using custom CSS
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
