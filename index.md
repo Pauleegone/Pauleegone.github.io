@@ -2,6 +2,14 @@
 title: "Paul Jinsol Lee"
 permalink: /
 ---
+<p style="text-align:center;">
+  <img
+    src="{{ '/assets/images/profile.jpg' | relative_url }}"
+    alt="Paul Jinsol Lee — profile photo"
+    class="profile-photo"
+  />
+</p>
+
 **B.A. Intelligence and Cyber Operations**<br>
 Buena Park, CA · [GitHub](https://github.com/Pauleegone) · [LinkedIn](https://www.linkedin.com/in/paul-j-lee-891072269)
 
