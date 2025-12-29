@@ -143,14 +143,14 @@ footer, .contact {
 /* Profile photo styling - larger and in original shape (not cropped circular) */
 .profile-photo {
   display: block;                 /* keeps it on its own line under the title */
-  /* max-width: 480px;               /* allow a larger display on wide screens */ */
+  max-width: 480px;               /* allow a larger display on wide screens */
   width: 100%;                    /* responsive: fill available width up to max-width */
   height: auto;                   /* preserve original aspect ratio (original shape) */
   border-radius: 0;               /* keep original rectangular shape */
-  /* object-fit: contain;               /* do not crop/cover — respect original image */ */
+  object-fit: contain;               /* do not crop/cover — respect original image */
   margin-top: 0.5rem;             /* space between title and image */
   margin-bottom: 0.6rem;          /* space before tagline */
-  /* border: 2px solid rgba(255,255,255,0.06); /* subtle frame on black bg */ */
+  border: 2px solid rgba(255,255,255,0.06); /* subtle frame on black bg */
 
   /* center the image within the container */
   margin-left: auto;
